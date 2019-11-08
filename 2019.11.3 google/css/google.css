@@ -1,0 +1,250 @@
+.one {
+    min-width: 1000px;
+}
+
+#navi1 {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    float: right;
+}
+
+#navi1-1 {
+    position: fixed;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(93, 64, 55, 1);
+    margin-top: 10px;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 35px;
+    font-family: Arial;
+    color: white;
+    font-size: 13;
+}
+
+.square {
+    width: 4px;
+    height: 4px;
+    background-color: rgba(115, 115, 115, 1);
+    margin: 1px;
+}
+
+.line1 {
+    float: left;
+}
+
+#line1 {
+    clear: both;
+}
+
+.line2 {
+    float: left;
+}
+
+#line2 {
+    clear: both;
+}
+
+.line3 {
+    float: left;
+}
+
+#line3 {
+    clear: both;
+}
+
+#navi1-2 {
+    position: fixed;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    margin-top: 20px;
+    margin-right: 82px;
+}
+#navi1-2:hover .square{
+    background-color: black;
+}
+
+.text1 {
+    position: fixed;
+    right: 0;
+    height: 30px;
+    width: auto;
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.text1:hover {
+    color: rgba(115, 115, 115, 1);
+    text-decoration: underline;
+}
+
+#navi1-3 {
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+#navi1-4 {
+    margin-top: 22px;
+    margin-right: 160px;
+}
+
+#middle {
+    position: fixed;
+    margin-top: 60px;
+    height: 440px;
+    width: 100%;
+    background-color: white;
+}
+
+#googleicon {
+    width: 272px;
+    height: 92px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+#search1 {
+    width: 580px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: 1px solid rgba(223, 225, 229, 1);
+    margin: 70 auto 0 auto;
+    box-shadow: 0 1px 5px white;
+}
+
+#search1:hover {
+    border: 1px solid white;
+    box-shadow: 0 1px 5px grey;
+}
+
+.search1 {
+    float: left;
+}
+
+input {
+    margin-top: 8px;
+    border: none;
+    width: 480px;
+    height: 30px;
+    outline:none;
+}
+
+#magnifying {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#voice {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 270px;
+}
+
+#search2 {
+    margin: 30 auto;
+    width: 230px;
+    height: 40px;
+}
+
+.search2 {
+    height: 36px;
+    background-color: rgba(243, 243, 243, 1);
+    float: left;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    color: rgba(95, 99, 104, 1);
+    border: 1px solid rgba(223, 225, 229, 0);
+}
+
+.search2:hover {
+    border: 1px solid rgba(223, 225, 229, 1);
+    background-color: rgba(248, 248, 248, 1);
+    color: black;
+}
+
+#search2-1 {
+    width: 110px;
+}
+
+#search2-2 {
+    width: 100px;
+    margin-left: 13px;
+}
+
+#search3 {
+    height: 20px;
+    width: 160px;
+    margin: 0 auto;
+    font-family: Arial;
+    font-size: 14;
+}
+
+.search3 {
+    float: left;
+}
+
+#search3-1 {
+    margin-left: 10px;
+}
+
+#search3-2 {
+    margin-left: 5px;
+    margin-top: 2px;
+    color: rgba(26, 13, 171, 1);
+}
+
+#search3-2:hover {
+    text-decoration: underline;
+}
+
+#navi2 {
+    position: fixed;
+    bottom: 0;
+    background: rgba(242, 242, 242, 1);
+    height: 40px;
+    width: 100%;
+    font-family: Arial;
+    font-size: 13;
+    color: rgba(95, 99, 104, 1);
+    line-height: 40px;
+}
+
+.navi2-1:hover {
+    text-decoration: underline;
+}
+
+.navi2-2:hover {
+    text-decoration: underline;
+}
+
+.navi2-1 {
+    float: left;
+    padding: 0 12px;
+}
+
+.navi2-2 {
+    float: right;
+    padding: 0 12px;
+}
+
+#navi2-1 {
+    margin-left: 20px;
+}
+
+#navi2-5 {
+    margin-right: 20px;
+}
+
+
+body {
+    margin: 0;
+}
